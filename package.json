@@ -1,0 +1,25 @@
+{
+  "name": "belkamax05.github.io",
+  "version": "1.0.0",
+  "description": "Personal github page",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --mode development --watch --config config/webpack.config.js",
+    "dev": "webpack --mode development --config config/webpack.config.js",
+    "build": "webpack --mode production --config config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belkamax05/belkamax05.github.io.git"
+  },
+  "author": "Maksym Bondarchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belkamax05/belkamax05.github.io/issues"
+  },
+  "homepage": "https://github.com/belkamax05/belkamax05.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
