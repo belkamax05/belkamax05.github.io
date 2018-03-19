@@ -1,7 +1,13 @@
 import React from "react";
-//import "./index.scss";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
 export class App extends React.Component {
     render() {
-        return <span>Hello React 5</span>
+        return <React.Fragment>
+            <Header/>
+            <Body/>
+            <Footer/>
+        </React.Fragment>
     }
 }
