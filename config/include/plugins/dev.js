@@ -6,7 +6,7 @@ const ManifestPlugin = require("webpack-assets-manifest");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = [
-	new CleanWebpackPlugin(['dist/*','build/*'], { root:     config.root }),
+	new CleanWebpackPlugin(['dist/*','build/*','docs/*'], { root:     config.root }),
     new ManifestPlugin(),
     new HtmlWebpackPlugin({
         inject: true,
