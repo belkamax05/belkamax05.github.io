@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --open --config config/webpack.config.js",
     "watch": "webpack --mode development --watch --config config/webpack.config.js",
     "dev": "webpack --mode development --config config/webpack.config.js",
-    "build": "webpack --mode production --config config/webpack.config.js"
+    "build": "webpack --mode production --config config/webpack.config.js && node scripts/copy_index"
   },
   "repository": {
     "type": "git",

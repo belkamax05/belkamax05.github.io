@@ -7,7 +7,7 @@ const mode = isDev ? "development" : "production";
 const resolveApp = relativePath => path.resolve(root, relativePath);
 const indexHtml = resolveApp("public/index.html");
 const public = resolveApp("public");
-const build = resolveApp("docs");
+const build = resolveApp("build");
 //appSrc
 //servedPath
 module.exports = {
