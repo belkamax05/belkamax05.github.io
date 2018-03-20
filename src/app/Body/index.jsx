@@ -4,7 +4,7 @@ console.log(style);
 export default class Body extends React.Component {
     render() {
         return <div className={style.className}>
-            <h1>Body</h1>
+            <h1>Body TEST GH</h1>
         </div>
     }
 }
