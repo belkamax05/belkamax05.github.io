@@ -31,6 +31,7 @@ module.exports = {
         },
       },
       require.resolve('sass-loader'),
+      require.resolve('../classname-loader'),
     //   {
     //     loader: 'sass-resources-loader',
     //     options: {

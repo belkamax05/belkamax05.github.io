@@ -6,10 +6,6 @@ const publicPath = config.servedPath;
 // For these, "homepage" can be set to "." to enable relative asset paths.
 const shouldUseRelativeAssetPaths = publicPath === './';
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const extractTextPluginOptions = shouldUseRelativeAssetPaths
-? // Making sure that the publicPath goes back to to build folder.
-  { publicPath: Array(cssFilename.split('/').length).join('../') }
-: {};
 module.exports = {
     test: /\.css$/,
     use: [
