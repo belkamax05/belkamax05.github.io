@@ -1,0 +1,24 @@
+
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="10" height="10"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Selector/Checkbox-On" transform="translate(-5.000000, -5.000000)">
+            <g id="Group" transform="translate(5.000000, 5.000000)">
+                <path d="M1,1 L1,13 L13,13 L13,1 L1,1 Z M1,0 L13,0 C13.5522847,8.8817842e-16 14,0.44771525 14,1 L14,13 C14,13.5522847 13.5522847,14 13,14 L1,14 C0.44771525,14 8.8817842e-16,13.5522847 0,13 L0,1 C0,0.44771525 0.44771525,0 1,0 Z" id="Rectangle-3" fill="#C6CBD4" fill-rule="nonzero"></path>
+                <g id="icon-fill/accent" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#4B74FF" xlink:href="#path-1"></use>
+                    <g id="🎨icon-color/accent" mask="url(#mask-2)" fill="#4B74FF">
+                        <g transform="translate(-31.000000, -31.000000)" id="Icon-Shade">
+                            <rect x="0" y="0" width="72" height="72"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
