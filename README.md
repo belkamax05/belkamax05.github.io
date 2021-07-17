@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome to belkamax05.github.io README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a source code of [belkamax05.github.io](https://belkamax05.github.io).
 
 ## Available Scripts
 
