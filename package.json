@@ -19,9 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rimraf build & rimraf index.html & rimraf manifest.json & rimraf asset-manifest.json & rimraf robots.txt & rimraf ./static & rimraf favicon.ico & rimraf *.png",
-    "postbuild": "node ./scripts/postbuild",
-    "postbuild_OLD2": "cd ./build && copyfiles \"./*\" \"../\" && copyfiles \"./static/*\" \"../dd\" --up --flat",
-    "postbuild_OLD": "xcopy /E/K/D/H/Y .\\build .\\"
+    "postbuild": "node ./scripts/eject-build-to-root"
   },
   "eslintConfig": {
     "extends": [
